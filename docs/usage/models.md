@@ -376,6 +376,8 @@ You can also add validators by passing a dict to the `__validators__` argument.
 {!.tmp_examples/models_dynamic_validators.py!}
 ```
 
+Notice that the keys of the dict follow the pattern `{field name}_validator`.
+
 ## Custom Root Types
 
 Pydantic models can be defined with a custom root type by declaring the `__root__` field. 
